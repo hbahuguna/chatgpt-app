@@ -61,18 +61,4 @@ Restart the client and backend server. The new prompt should show up. I've added
 ### Part 3: Customise Promtps
 Udpate the backend and frontend queries to define the kind of prompt you want to query OpenAI with, as well as the kind of output you wish. There are examples for plaintext and listed prompts as part of this process.
 
-## Publishing the Project
 
-If you want to go live and publish the project, you will need a live domain and hosting. You can run NPM run build, and this will build the create react app the the build folder, which the web server will use as reference for the project online.
-
-# Bugs and Fixes
-
-I've released videos to cover some of the bugs and fixes. If you are running newer versions of node or python, please read below:
-
-- Use the --legacy-peer-deps flag when installing dependencies. This flag will allow npm to install the packages even if their peer dependencies are not satisfied. Note that using this flag may result in a broken or unstable project, so it should be used with caution.
-
-- Use the --force flag when installing dependencies. This flag will allow npm to install the packages even if there are conflicts or errors. This should be used as a last resort, as it can result in a broken or unstable project.
-
-- Some instances people mention nodemon not working. You can also install it gobally. You can run npm install nodemon -g to do this.
-
-- I recommend using the node and npm versions I listed ealier, as these provide for the best installation environment.
