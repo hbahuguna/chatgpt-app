@@ -1,6 +1,3 @@
-# OpenAI Template
-This project is a starter kit for using OpenAI and its API layer. It is baked in with Authentication, Session Management, Token Tracking, as well as Billing (currently disabled).
-
 ## Introduction
 
 To start using the project, you will need the following. Node version 14 or above, MongoDB Cloud, an OpenAI account and key and Python.
